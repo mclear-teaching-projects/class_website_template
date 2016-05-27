@@ -6,3 +6,6 @@
 *.out
 *.py[cod]
 output
+
+# Lock files from emacs
+.#*
