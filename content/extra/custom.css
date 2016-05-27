@@ -1,0 +1,62 @@
+/* #banner { */
+/*     padding: 85px 0; */
+/* } */
+
+
+#tipue_search_input {
+    padding: 9px 12px 9px 40px;
+    background-position: 15px 13px;
+    margin-top: 1px;
+  }
+
+body {
+    font-family: 'Helvetica',sans-serif;
+    font-size: 17px; 
+    line-height: 1.628571; 
+    color: black;
+
+  }
+
+p {
+
+  padding-bottom: 5px;
+
+}
+
+footer {
+  font-size: 12px;
+}
+
+h1 {
+  font-family: Avenir,sans-serif;
+  font-variant: small-caps;
+
+}
+
+h2 {
+  font-family: Avenir,sans-serif;
+  font-variant: small-caps;
+
+}
+h3 {
+  font-family: Avenir,sans-serif;
+  font-variant: small-caps;
+
+}
+
+
+/* navbar */
+/* .navbar-inverse { */
+/*     /\* background-color: #4C4CFF; *\/ */
+/*     background-color: #FF6600; */
+/* } */
+
+/* .navbar-inverse .nav > li > a { */
+/* color: #000000;/\* CHANGE COLOR HERE*\/ */
+/* } */
+
+/* .navbar-inverse .brand, .navbar-inverse .navbar-toggle .icon-bar { */
+/*     background-color: black; */
+/*     border-color: black; */
+/*     color: #000000;/\* CHANGE COLOR HERE*\/ */
+/* } */
