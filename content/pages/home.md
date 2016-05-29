@@ -1,8 +1,8 @@
 TITLE: Welcome!
-URL: phil101.colinmclear.net
+URL: phil???.colinmclear.net
 SAVE_AS: index.html
 
-This is the homepage for PHIL 101 -- Introduction to Philosophy. 
+This is the homepage for PHIL ??? -- ???.
 
 This is a footnote.[^1]
 
