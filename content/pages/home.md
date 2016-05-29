@@ -4,7 +4,7 @@ SAVE_AS: index.html
 
 This is the homepage for PHIL ??? -- ???.
 
-This is a footnote.[^1]
+[Insert course description here ... ]
 
-[^1]: Hi there!
+If you'd like to take a look at the syllabus you can find it here: [HTML]({filename}/extra/syllabus.html) | [PDF]({filename}/extra/syllabus.pdf)
 
