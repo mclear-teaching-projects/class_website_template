@@ -44,19 +44,47 @@ h3 {
 
 }
 
-
 /* navbar */
-/* .navbar-inverse { */
-/*     /\* background-color: #4C4CFF; *\/ */
-/*     background-color: #FF6600; */
-/* } */
 
-/* .navbar-inverse .nav > li > a { */
-/* color: #000000;/\* CHANGE COLOR HERE*\/ */
-/* } */
+/* Change navbar color */
+.navbar-inverse {
+    /* orange */ 
+    /* background-color: #FF6600; */ 
+    /* border-color: #FF6600; */
 
-/* .navbar-inverse .brand, .navbar-inverse .navbar-toggle .icon-bar { */
-/*     background-color: black; */
-/*     border-color: black; */
-/*     color: #000000;/\* CHANGE COLOR HERE*\/ */
-/* } */
+    /* light blue */
+    /* background-color: #39B3DD;  */
+    /* border-color: #39B3DD; */
+
+    /* Yellow */
+    /* background-color: #F7D708; */
+    /* border-color: #F7D708: */
+
+    /* Green */
+    background-color: #21B6A8;
+    border-color: #21B6A8;
+}
+
+/* Collapse divider color */
+.navbar-inverse .navbar-collapse,.navbar-inverse .navbar-form{border-color: black;}
+.navbar-inverse .navbar-nav .open .dropdown-menu .divider{background-color: black;}
+
+/* Change site title color */
+.navbar-inverse .navbar-brand {
+    /* background-color: black; */
+    color: black;/* CHANGE COLOR HERE*/
+}
+
+/* Change list items color */
+.navbar-inverse .nav > li > a {
+color: #000000;/* CHANGE COLOR HERE*/
+}
+
+/* Change toggle colors */
+.navbar-inverse .navbar-toggle{border-color: black;}
+.navbar-inverse .navbar-toggle:hover,.navbar-inverse .navbar-toggle:focus{background-color: white;}
+.navbar-inverse .navbar-toggle .icon-bar {
+    background-color: black;
+    border-color: black;
+    color: #000000;/* CHANGE COLOR HERE*/
+}
