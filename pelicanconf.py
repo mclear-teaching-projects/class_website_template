@@ -3,7 +3,7 @@
 from __future__ import unicode_literals
 
 AUTHOR = u'Colin McLear'
-SITENAME = u'Philosophy 101'
+SITENAME = u'Philosophy ???'
 SITEURL = ''
 TIMEZONE = 'America/New_York'
 DEFAULT_LANG = u'en'
