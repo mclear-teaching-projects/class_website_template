@@ -8,6 +8,8 @@ SITEURL = ''
 TIMEZONE = 'America/New_York'
 DEFAULT_LANG = u'en'
 PATH = 'content'
+FAVICON = 'images/favicon.ico'
+READERS = {'html': None}
 
 # Uncomment following line if you want document-relative URLs when developing
 RELATIVE_URLS = True
@@ -24,31 +26,35 @@ RELATIVE_URLS = True
 THEME = 'pelican-bootstrap3'
 BOOTSTRAP_THEME='simplex'
 BOOTSTRAP_NAVBAR_INVERSE = True
-DISPLAY_PAGES_ON_MENU = True
+DISPLAY_PAGES_ON_MENU = False
 DISPLAY_CATEGORIES_ON_MENU = False
 DISPLAY_ARTICLE_INFO_ON_INDEX = True
 DISPLAY_PAGES_ON_MENU = False
 MENUITEMS = (
-    ('Resources', '/.html'),
-    ('Schedule', '/.html'),
-    ('Syllabus', '/syllabus.html'),
-    ('Contact', '/.html'),
+    ('Schedule', '/schedule'),
+    ('Assignments', '/assignments'),
+    ('Resources', '/resources'),
+    ('Contact', '/contact'),
     # ('Tags', '/tags.html'),
     # ('Home', '/'),
     # ('Category1', 'category/category1.html'),
     # ('Category2', 'category/category2.html'),
 )
 
+THEME_STATIC_DIR = 'theme'
+# Turn on Typogrify
 CC_LICENSE = "CC-BY-NC-SA"
-GOOGLE_ANALYTICS = 'UA-30497236-1'
 CUSTOM_CSS = 'static/custom.css'
 
-# Tell Pelican to add 'extra/custom.css' to the output dir
-STATIC_PATHS = ['images', 'extra/custom.css']
-# Tell Pelican to change the path to 'static/custom.css' in the output dir
-EXTRA_PATH_METADATA = {
-    'extra/custom.css': {'path': 'static/custom.css'}
-}
+ARTICLE_PATHS = ['assignments']
+PAGE_URL = '{slug}'
+PAGE_SAVE_AS = '{slug}.html'
+INDEX_SAVE_AS = 'assignments/index.html'
+INDEX_URL = 'assignments/'
+CUSTOM_CSS = 'static/custom.css'
+STATIC_PATHS = ['images', 'readings', 'extra/CNAME', 'extra/custom.css', 'extra/syllabus.html', 'extra/syllabus.pdf', 'assignments']
+EXTRA_PATH_METADATA = {'extra/CNAME': {'path': 'CNAME'}, 'extra/custom.css': {'path': 'static/custom.css'}}
+DIRECT_TEMPLATES = ('index', 'tags', 'authors', 'archives', 'search')
 
 
 # Plugins ##########
@@ -93,7 +99,4 @@ LINKS = (
 #           ('facebook', 'https://www.facebook.com/?_rdr=p'),
 #           )
 
-DEFAULT_PAGINATION = 10
-
-# Uncomment following line if you want document-relative URLs when developing
-#RELATIVE_URLS = True
+DEFAULT_PAGINATION = 30
